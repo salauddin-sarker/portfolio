@@ -1,0 +1,62 @@
+.color-handle i {
+    color: #7aa93c;
+}
+
+.header_subtitle span {
+    color: #7aa93c;
+}
+.header_subtitle::before {
+    background-color: #7aa93c;
+}
+.home-social span {
+    color: #7aa93c;
+}
+
+.scroll-design i {
+    color: #7aa93c !important;
+}
+.Remon-title-border i, .Remon-title-border::after,
+.Remon-title-border::before {
+    background: #7aa93c none repeat scroll 0 0;
+}
+.Remon-service-box .Remon-service-icon i {
+    color: #7aa93c;
+}
+
+.text-custom {
+    color: #7aa93c;
+}
+
+.color-plate .color-button {
+    background-color: #7aa93c;
+}
+
+.to-top-btn {
+    background-color: #7aa93c;
+}
+
+.Remon-contact-form .form-control:focus {
+    border-color: #7aa93c;
+}
+
+.filter-top-menu a.active,
+.filter-top-menu a:hover {
+    color: #7aa93c !important;
+}
+
+.bg-custom {
+    background-color: #7aa93c;
+}
+
+.text-custom {
+    color: #7aa93c;
+}
+
+.bg-custom {
+    background-color: #7aa93c;
+}
+
+.btn-custom {
+    background-color: #7aa93c;
+    border: 2px solid #7aa93c;
+}

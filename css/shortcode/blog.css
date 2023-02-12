@@ -1,0 +1,21 @@
+/*==========================
+        11.BLOG
+============================*/
+
+.Remon-blog-btn .btn {
+    padding: 4px 10px;
+}
+
+.bg-blog {
+    background: #f0f0f0;
+    transition: all .3s ease 0s;
+}
+
+.bg-blog:hover .blog-info {
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(2, 3, 3, 0.1);
+}
+
+.blog-info {
+    transition: all 0.3s ease 0s;
+}

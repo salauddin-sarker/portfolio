@@ -1,0 +1,43 @@
+/*==========================
+        12.CONTACT US
+============================*/
+#section7 {
+    background: #f6f6f6;
+}
+.form-sub-title {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+.contact-box {
+    padding: 40px 30px;
+    background: #fff;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.1);
+}
+.Remon-contact-form .form-control {
+    box-shadow: none !important;
+    height: 44px;
+    border-radius: 0px;
+}
+
+.Remon-contact-form textarea.form-control {
+    height: auto;
+}
+
+.contact-icon {
+    border: 1px solid #333;
+    border-radius: 50px;
+    display: inline-block;
+    float: left;
+    height: 40px;
+    padding-top: 7px;
+    text-align: center;
+    width: 40px;
+}
+
+.contact-text {
+    margin-left: 60px;
+}
+.form-result {
+    margin-top: 1rem;
+}

@@ -50,8 +50,8 @@
     .Remon-full{
         height: inherit !important;
     }
-    .Remon-full {
-        height: auto !important;
+    #pagepiling{
+        height: inherit !important ;
     }
     .hidden-sm {
         display: none;

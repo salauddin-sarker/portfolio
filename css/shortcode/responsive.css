@@ -47,12 +47,6 @@
 }
 
 @media (max-width: 768px) {
-    .Remon-full{
-        height: inherit !important;
-    }
-    #pagepiling{
-        height: inherit !important ;
-    }
     .hidden-sm {
         display: none;
     }
@@ -66,9 +60,6 @@
     .header_subtitle {
         font-size: 15px;
         line-height: 1.5em;
-    }
-    .Remon-full {
-        height: auto;
     }
     .Remon-home,
     .bg-custom.creative,

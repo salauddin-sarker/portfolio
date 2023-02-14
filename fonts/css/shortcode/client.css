@@ -1,0 +1,46 @@
+/*==========================
+        9.CLIENT
+============================*/
+
+.Remon-client-area {
+    background: rgba(0, 0, 0, 0) url(../../images/bg/img-3.jpg) no-repeat scroll bottom center / cover;
+    background-position: center center;
+}
+
+.Remon-client-say {
+    padding: 15px 0px;
+}
+
+.Remon-client-say .Remon-client-icon i {
+    font-size: 60px;
+}
+
+.Remon-client-icon img {
+    border-radius: 50%;
+    margin-top: 8px;
+}
+
+.Remon-review-box .Remon-review-text {
+    font-size: 18px;
+    max-width: 580px;
+    line-height: 1.5em;
+    font-weight: 400;
+    font-family: inherit;
+}
+
+.Remon-review-text p.h6 {
+    margin-bottom: 0px !important;
+}
+
+.owl-theme .owl-controls .owl-page {
+    margin: 20px 0px;
+}
+
+.owl-theme .owl-controls .owl-page span,
+.owl-controls.clickable {
+    display: none !important;
+}
+
+.owl-theme .owl-controls .owl-page.active span {
+    width: 20px;
+}

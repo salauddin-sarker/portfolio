@@ -1,0 +1,160 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Remon - Personal Portfolio Template
+    Description: Main Css file of the template
+    Author: themesource
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+/***********************
+    1.BASIC (shortcode/basic.css)           
+    2.HELPER(shortcode/helper.css) 
+    3.NAVBAR  (shortcode/navbar.css)
+    4.HOME (shortcode/home.css)
+    5.ABOUT ME (shortcode/about.css)
+    6.SERVICES (shortcode/services.css)
+    7.WORK (shortcode/work.css)
+    8.CLIENT (shortcode/client.css)
+    9.BLOG (shortcode/blog.css)
+    10.CONTACT US (shortcode/contact.css)
+    11.FOOTER (shortcode/footer.css)
+    12.RESPONSIVE (shortcode/responsive.css)
+************************/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url("shortcode/basic.css");
+@import url("shortcode/helper.css");
+@import url("shortcode/navbar.css");
+@import url("shortcode/home.css");
+@import url("shortcode/about.css");
+@import url("shortcode/services.css");
+@import url("shortcode/work.css");
+@import url("shortcode/client.css");
+@import url("shortcode/blog.css");
+@import url("shortcode/contact.css");
+@import url("shortcode/footer.css");
+@import url("shortcode/responsive.css");
+
+.black-body {
+    background: #333;
+}
+.color-schemes {
+    position: fixed;
+    top: 150px;
+    right: -150px;
+    padding: 0 0 20px;
+    width: 150px;
+    z-index: 9999999;
+    background-color: #fff;
+    transition: right 1s ease;
+}
+
+.color-schemesz {
+    z-index: 1;
+}
+
+.color-schemes.show {
+    right: 0;
+}
+
+.color-handle {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    display: block;
+    left: -40px;
+    top: 0px;
+    z-index: 99;
+    text-align: center;
+    padding-top: 8px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: -3px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.color-handle i {
+    position: absolute;
+    right: 22%;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.color-schemes {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.color-plate {
+    margin: 20px 10px;
+}
+
+.color-plate h5 {
+    color: #555;
+    letter-spacing: .02em;
+    margin-top: 16px;
+    margin-bottom: 12px;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-left: 5px;
+}
+
+.color-plate a {
+    display: inline-block;
+    background-color: #555;
+    text-indent: -1000px;
+    overflow: hidden;
+    height: 30px;
+    width: 50px;
+    margin: 5px;
+}
+
+.color-plate a.single-color {
+    display: inline-block;
+    background-color: #555;
+    text-indent: -1000px;
+    overflow: hidden;
+    height: 35px;
+    width: 35px;
+    margin: 1px;
+}
+
+.color-plate a {
+    border-radius: 50%;
+}
+
+.color-plate button {
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.color-plate .color-button {
+    background-color: #00acc1;
+    color: #fff;
+}
+
+.color-plate a.defaults-color {
+    background-color: #ffbf3b;
+}
+
+.color-plate a.red-color {
+    background-color: #f12938;
+}
+
+.color-plate a.purple-color {
+    background-color: #7532ff;
+}
+
+.color-plate a.sky-color {
+    background-color: #00acc1;
+}
+
+.color-plate a.green-color {
+    background-color: #7aa93c;
+}
+
+.color-plate a.blue-color {
+    background-color: #0000FF;
+}

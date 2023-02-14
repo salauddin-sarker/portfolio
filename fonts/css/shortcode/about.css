@@ -1,0 +1,55 @@
+/*==========================
+        5.ABOUT ME
+============================*/
+
+.Remon-about-text {
+    max-width: 850px;
+}
+
+.Remon-about-text .about-work li {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Remon-about-text .about-work li::after {
+    content: "";
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: #757575;
+    margin: 0px 12px;
+    position: relative;
+    display: inline-block;
+    top: -3px;
+}
+
+.Remon-about-text .about-work li:last-child:after {
+    content: "";
+    display: none;
+}
+
+.Remon-progress-area .progress {
+    height: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.Remon-progress-area .progress-bar {
+    background: #444;
+}
+.circle {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 1em auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-border-radius: 99em;
+    -moz-border-radius: 99em;
+    border-radius: 99em;
+    border: 5px solid #eee;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);  
+    background: url("../../images/me-1.jpg");
+    background-size: cover;
+}
